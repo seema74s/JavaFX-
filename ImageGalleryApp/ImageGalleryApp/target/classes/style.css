@@ -1,0 +1,44 @@
+/* Style for the thumbnails */
+.grid-pane {
+    -fx-padding: 10px;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);
+    -fx-transition-duration: 0.3s;
+    -fx-padding-left:45px;
+}
+
+.image-view:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+/* Style for the thumbnail header */
+.vbox > .label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 5px 0;
+}
+
+/* Style for the navigation buttons */
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+/* Style for the full-size image */
+.full-size-image {
+    -fx-alignment: center;
+    -fx-padding: 20px;
+}
